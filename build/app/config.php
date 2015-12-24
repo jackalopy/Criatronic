@@ -1,10 +1,10 @@
 <?php
-    define('ENV', 'DEV');
+    define('ENV', 'PROD');
     
     if(ENV == 'DEV') {
         define('BASE_URL', '//criatronic-mendizabal.c9.io/');
     } elseif(ENV == 'PROD') {
-        define('BASE_URL', '//mastifftibetanobrasil.com.br/');
+        define('BASE_URL', '//criatronic.com.br/');
     }
     
     define('ASSETS_URL', BASE_URL . 'assets/');
